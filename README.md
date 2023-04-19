@@ -8,20 +8,11 @@ Creating stories for Dev, QE and Docs for a given Epic
 
 $ pip install -r requirements.txt
 
-### Create an auth.cfg file, for an example:
-
-'''
-[jira]
-jira_server = <url>
-project = <project name>
-[auth]
-token = <token>
-'''
+### Create an auth.cfg file, see example.cfg
 
 ### Run create_stories.py for the creation of all of the stories for an epic
 
-'''
-$ create_stories.py --auth-file auth.cfg --epic-id <Epic name> \
+`$ create_stories.py --auth-file example.cfg --epic-id <Epic name> \
  --design true \
  --implementation true \
  --test-case true \
@@ -30,5 +21,4 @@ $ create_stories.py --auth-file auth.cfg --epic-id <Epic name> \
  --documentation true \
  --dev-assignee <username> \
  --qe-assignee <username> \
- --workstream <workstream>
-'''
+ --workstream <workstream>`
