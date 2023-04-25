@@ -3,8 +3,7 @@ from jira import JIRA
 import configparser
 
 
-def create_stories(jira, epic, test_case=None, automate=None, ci_automation=None):
-    pass
+
 
 
 def main():
