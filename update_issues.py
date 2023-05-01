@@ -43,7 +43,6 @@ def main():
     labels = []
     workstreams = []
     update_fields = {}
-    comments = []
     jira = JIRA(options, token_auth=token)
 
     if args.update_issues:
